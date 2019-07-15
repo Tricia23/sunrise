@@ -1,0 +1,39 @@
+.sun {
+  height: 7rem;
+  width: 7rem;
+  background: yellow;
+  border-radius: 50%;
+  box-shadow: 0 0 3rem yellow;
+  display: flex;
+}
+
+.inner-sun {
+  height: 6rem;
+  width: 6rem;
+  background: rgb(247, 210, 47);
+  border-radius: 50%;
+  box-shadow: 0 0 3rem yellow;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  border-color: yellow;
+}
+
+.sky {
+  z-index: -1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 20%;
+  top: 0;
+  background: linear-gradient(to bottom, #2d91c2 0%, #1e528e 100%);
+}
+
+.grass {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 80%;
+  background: hsl(120, 50%, 36%);
+}
