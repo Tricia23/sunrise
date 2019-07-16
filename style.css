@@ -1,12 +1,3 @@
-.sun {
-  height: 7rem;
-  width: 7rem;
-  background: yellow;
-  border-radius: 50%;
-  box-shadow: 0 0 3rem yellow;
-  display: flex;
-}
-
 .inner-sun {
   height: 6rem;
   width: 6rem;
@@ -19,7 +10,53 @@
   border-color: yellow;
 }
 
+.animator {
+  margin-top: 3rem;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.sun {
+  height: 7rem;
+  width: 7rem;
+  background: yellow;
+  border-radius: 50%;
+  box-shadow: 0 0 3rem yellow;
+  display: flex;
+
+  position: fixed;
+}
+.sunmove {
+  margin-left: 8rem;
+  position: absolute;
+  -webkit-animation: moves 15s;
+  animation: moves 15s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards !important;
+}
+
+@keyframes moves {
+  from {
+    left: 0px;
+    top: 0px;
+  }
+  to {
+    left: 200px;
+    top: 500px;
+  }
+}
+
+/* .animator:hover .sunmove * {
+  transform: translate(9rem, 30rem);
+  animation-timing-function: linear;
+} */
+
 .sky {
+  display: flex;
   z-index: -1;
   position: fixed;
   left: 0;
@@ -819,4 +856,126 @@ div.grass:before {
 }
 .blade53c {
   left: 1080px;
+}
+
+/* div.sun ~ div.stars {
+  animation: shine 7s linear forwards 4.7s;
+}
+
+@keyframes shine {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+div.stars div.star {
+  position: fixed;
+  background: hsl(52, 50%, 80%);
+  border-radius: 0.05cm;
+}
+
+.animator:hover + div.stars div.star {
+  opacity: 1 !important;
+}
+
+div.stars div.star:nth-child(1) {
+  left: calc(30% - 0.3cm);
+  top: 10%;
+}
+
+div.stars div.star:nth-child(2) {
+  left: calc(40% - 0.3cm);
+  top: 30%;
+}
+
+div.stars div.star:nth-child(3) {
+  left: calc(25% - 0.3cm);
+  top: 40%;
+}
+
+div.stars div.star:nth-child(4) {
+  left: calc(75% - 0.6cm);
+  top: 30%;
+}
+div.stars div.star:nth-child(5) {
+  left: calc(60% - 0.4cm);
+  top: 25%;
+}
+
+div.stars .star {
+  animation: twinkle 6s linear infinite 3.8s;
+  animation-delay: 9s;
+
+  transition-timing-function: ease-in-out;
+}
+
+/* div.stars .star:nth-child(2) {
+  animation: twinkle 6s linear infinite 0.7s;
+} */
+
+@keyframes twinkle {
+  0%,
+  100% {
+    height: 0.075cm;
+    width: 0.075cm;
+    opacity: 1;
+    box-shadow: 0 0 0.2cm 0.1cm hsla(52, 50%, 100%, 0.5);
+  }
+  50% {
+    height: 0.02cm;
+    width: 0.02cm;
+    opacity: 0.5;
+    box-shadow: 0 0 0.2cm 0.1cm hsla(52, 50%, 100%, 0.5);
+  }
+}
+.sky {
+  /*transition: background linear 1s;
+  background: navy; */
+  animation: fall 9s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+/* @keyframes fall {
+  0% {
+    background: hsl(200, 70%, 50%);
+  }
+  10% {
+    background: hsl(200, 70%, 50%);
+  }
+  40% {
+    background: purple;
+  }
+  70% {
+    background: hsl(240, 100%, 20%);
+  }
+  100% {
+    background: hsl(240, 100%, 7%);
+  }
+  /* background: linear-gradient(hsl(0,100%,50%),hsl(60,100%,50%)*/
+/* } */
+
+@keyframes fall {
+  0% {
+    background: hsl(200, 70%, 50%);
+  }
+  10% {
+    background: hsl(200, 70%, 50%);
+  }
+  40% {
+    background: #757abf;
+  }
+  70% {
+    background: #20202c;
+  }
+  100% {
+    background: #00000c;
+  }
+  /* background: linear-gradient(hsl(0,100%,50%),hsl(60,100%,50%)*/
 }
