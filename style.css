@@ -140,7 +140,21 @@ div.grass:before {
 .blade53,
 .blade54,
 .blade55,
-.blade56 {
+.blade56,
+.blade57,
+.blade58,
+.blade59,
+.blade60,
+.blade61,
+.blade62,
+.blade63,
+.blade64,
+.blade65,
+.blade66,
+.blade67,
+.blade68,
+.blade69,
+.blade70 {
   border-left: 2px solid transparent;
   border-right: 2px solid transparent;
   border-bottom: 150px solid #156a32;
@@ -350,6 +364,57 @@ div.grass:before {
 .blade56 {
   left: 1375px;
 }
+.blade57 {
+  left: 1400px;
+}
+.blade58 {
+  left: 1425px;
+}
+.blade59 {
+  left: 1450px;
+}
+.blade60 {
+  left: 1475px;
+}
+.blade61 {
+  left: 1500px;
+}
+.blade62 {
+  left: 1525px;
+}
+.blade63 {
+  left: 1550px;
+}
+.blade64 {
+  left: 1575px;
+}
+.blade65 {
+  left: 1600px;
+}
+.blade66 {
+  left: 1625px;
+}
+.blade67 {
+  left: 1650px;
+}
+.blade68 {
+  left: 1675px;
+}
+.blade69 {
+  left: 1700px;
+}
+.blade70 {
+  left: 1725px;
+}
+.blade71 {
+  left: 1750px;
+}
+.blade72 {
+  left: 1775px;
+}
+.blade73 {
+  left: 1800px;
+}
 
 .blade1b,
 .blade2b,
@@ -403,7 +468,21 @@ div.grass:before {
 .blade50b,
 .blade51b,
 .blade52b,
-.blade53b {
+.blade53b,
+.blade54b,
+.blade55b,
+.blade56b,
+.blade57b,
+.blade58b,
+.blade59b,
+.blade60b,
+.blade61b,
+.blade62b,
+.blade63b,
+.blade64b,
+.blade65b,
+.blade66b,
+.blade67b {
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
   border-bottom: 190px solid #1e4018;
@@ -603,6 +682,48 @@ div.grass:before {
 .blade53b {
   left: 1265px;
 }
+.blade54b {
+  left: 1285px;
+}
+.blade55b {
+  left: 1300px;
+}
+.blade56b {
+  left: 1320px;
+}
+.blade57b {
+  left: 1340px;
+}
+.blade58b {
+  left: 1360px;
+}
+.blade59b {
+  left: 1380px;
+}
+.blade60b {
+  left: 1400px;
+}
+.blade61b {
+  left: 1420px;
+}
+.blade62b {
+  left: 1440px;
+}
+.blade63b {
+  left: 1460px;
+}
+.blade64b {
+  left: 1480px;
+}
+.blade65b {
+  left: 1500px;
+}
+.blade66b {
+  left: 1520px;
+}
+.blade67b {
+  left: 1540px;
+}
 
 .blade1c,
 .blade2c,
@@ -656,7 +777,37 @@ div.grass:before {
 .blade50c,
 .blade51c,
 .blade52c,
-.blade53c {
+.blade53c,
+.blade54c,
+.blade55c,
+.blade56c,
+.blade57c,
+.blade58c,
+.blade59c,
+.blade60c,
+.blade61c,
+.blade62b,
+.blade63c,
+.blade64c,
+.blade65c,
+.blade66c,
+.blade67c,
+.blade68c,
+.blade69c,
+.blade70b,
+.blade71c,
+.blade72c,
+.blade73c,
+.blade74c,
+.blade75c,
+.blade76c,
+.blade77c,
+.blade78c,
+.blade79c,
+.blade80c,
+.blade81c,
+.blade82c,
+.blade83c{
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
   border-bottom: 190px solid #274e20;
@@ -856,6 +1007,96 @@ div.grass:before {
 }
 .blade53c {
   left: 1080px;
+}
+.blade54c {
+  left: 1100px;
+}
+.blade55c {
+  left: 1120px;
+}
+.blade56c {
+  left: 1140px;
+}
+.blade57c {
+  left: 1160px;
+}
+.blade58c {
+  left: 1180px;
+}
+.blade59c {
+  left: 1200px;
+}
+.blade60c {
+  left: 1220px;
+}
+.blade61c {
+  left: 1240px;
+}
+.blade62c {
+  left: 1260px;
+}
+.blade63c {
+  left: 1280px;
+}
+.blade64c {
+  left: 1300px;
+}
+.blade65c {
+  left: 1320px;
+}
+.blade66c {
+  left: 1340px;
+}
+.blade67c {
+  left: 1360px;
+}
+.blade68c {
+  left: 1380px;
+}
+.blade69c {
+  left: 1400px;
+}
+.blade70c {
+  left: 1420px;
+}
+.blade71c {
+  left: 1440px;
+}
+.blade71c {
+  left: 1460px;
+}
+.blade73c {
+  left: 1480px;
+}
+.blade74c {
+  left: 1500px;
+}
+.blade75c {
+  left: 1520px;
+}
+.blade76c {
+  left: 1540px;
+}
+.blade77c {
+  left: 1560px;
+}
+.blade78c {
+  left: 1580px;
+}
+.blade79c {
+  left: 1600px;
+}
+.blade80c {
+  left: 1620px;
+}
+.blade81c {
+  left: 1640px;
+}
+.blade82c {
+  left: 1620px;
+}
+.blade83c {
+  left: 1640px;
 }
 
 /* div.sun ~ div.stars {
